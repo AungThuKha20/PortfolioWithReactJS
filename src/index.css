@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@400;600&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalnia:wght@600&family=Open+Sans:wght@400;600&family=Poppins:ital@1&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img{
+  clip-path: circle(50% at 50% 50%);
+  transform: scaleX(-1);
+}
+.nav-hover{
+  
+  border-bottom: 50px solid rgb(23, 194, 194); 
+}
+.hide{
+  opacity: 0;
+}
+.active{
+  color: rgb(76, 218, 187);
+  border-bottom: 6px solid cyan;
+}
