@@ -74,7 +74,7 @@ const Skills = () => {
           viewport={{ once: false, amount: 0.7 }}
           className=" w-full flex flex-col items-start mx-auto md:mx-[30px] lg:mx-[20px]"
         >
-          <h1 className="text-2xl font-heading md:ms-0 ms-5 md:text-3xl">
+          <h1 className="text-2xl font-heading md:ms-0 ms-3 md:text-3xl">
             Skills
           </h1>
           <p className="mt-5 text-[20px] font-bold">
