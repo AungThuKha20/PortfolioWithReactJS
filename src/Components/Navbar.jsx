@@ -111,7 +111,7 @@ const Navbar = () => {
         {menu ? <RiCloseCircleLine /> : <BsMenuButtonWideFill />}
       </div>
       {menu && (
-        <div className="  absolute top-0 left-0 bg-gradient-to-b   from-cyan-900 via-teal-900 to-gray-900 w-full h-screen  pt-20 ">
+        <div className="  absolute top-0 left-0 bg-gradient-to-b z-20   from-cyan-900 via-teal-900 to-gray-900 w-full h-screen  pt-20 ">
           <ul className="  flex flex-col items-center  justify-center align-middle  ">
             {links.map((link) => {
               return (
