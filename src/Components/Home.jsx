@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div id="home" className=" section  h-[1000px] md:h-screen  w-full  ">
+    <div id="home" className=" section  h-[800px] md:h-screen  w-full  ">
       <div className="  max-w-screen-lg md:px-4 px-1 h-full flex flex-col items-center mx-auto align-middle justify-center md:flex-row ">
         <motion.div
           variants={fadeIn("down", 0.2)}

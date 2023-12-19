@@ -72,11 +72,9 @@ const Skills = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" w-full flex flex-col sm:text-center items-start mx-auto md:mx-[30px] lg:mx-[20px]"
+          className=" w-full flex flex-col sm:text-center  mx-auto md:mx-[30px] lg:mx-[20px]"
         >
-          <h1 className="text-2xl font-heading md:ms-0 ms-2 text-center  md:text-3xl">
-            Skills
-          </h1>
+          <p className="text-2xl font-heading   md:text-3xl">Skills</p>
           <p className="mt-2 text-[20px] text-center font-bold">
             These are some languages I have worked with
           </p>
