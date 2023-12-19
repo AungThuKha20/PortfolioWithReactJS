@@ -16,7 +16,7 @@ const Home = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" mt-[200px] px-2 mx-auto md:mt-0 text-gray-100 me-0 md:me-2 md:w-full"
+          className=" px-2 mx-auto md:mt-0 text-gray-100 me-0 md:me-2 md:w-full"
         >
           <motion.h1
             variants={fadeIn("down", 0.2)}
@@ -43,7 +43,7 @@ const Home = () => {
               className="bg-gradient-to-r from-cyan-300 via-sky-500 to-gray-400 text-transparent bg-clip-text"
             />
           </motion.h1>
-          <p className=" text-start md:mt-0 text-gray-400">
+          <p className=" mt-2 text-start md:mt-0 text-gray-400">
             I am excited to launch my career as a frontend web developer and am
             presently enrolled in the NCC Level 4 Diploma in Programming.
             Despite the fact that I do not yet have professional experience, my

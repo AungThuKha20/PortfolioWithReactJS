@@ -10,7 +10,7 @@ import SocialLinkSm from "./Components/socialLinkSm";
 
 const App = () => {
   return (
-    <div className=" md:mx-0 mx-auto bg-gradient-to-l w-fit md:w-full  from-cyan-900 via-teal-900 to-gray-800">
+    <div className=" overflow-x-hidden md:mx-0 mx-auto bg-gradient-to-l w-fit md:w-full  from-cyan-900 via-teal-900 to-gray-800">
       <Navbar />
       <Home />
       <SocialLink />

@@ -68,7 +68,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className=" md:fixed w-full   z-50 text-cyan-50 flex sm:text-[20px] md:text-[30px] pt-4 flex-row justify-between align-middle py-4 bg-gradient-to-l from-cyan-800 via-teal-800 to-gray-700">
+    <div className=" md:fixed w-full   z-50 text-cyan-50 flex text-[25px] md:text-[28px] pt-4 flex-row justify-between align-middle py-4 bg-gradient-to-l from-cyan-800 via-teal-800 to-gray-700">
       <div className=" flex flex-row items-center align-middle font-bold  ">
         <div>
           <h1 className=" ms-4 font-cursive sm:m-1 md:ms-[50px] lg:ms-[100px]  ">
@@ -87,7 +87,7 @@ const Navbar = () => {
           <GiSpikedDragonHead className=" shadow-lg shadow-teal-700" />
         </div>
       </div>
-      <div className=" hidden md:flex flex-row   lg:gap-20 md:gap-15 me-10  align-middle">
+      <div className=" hidden md:flex flex-row md:gap-14 lg:gap-20 me-10  align-middle">
         {links.map((link) => {
           return (
             <Link

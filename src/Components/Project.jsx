@@ -55,7 +55,7 @@ const Project = () => {
                     className=" group-hover: mix-blend-soft-light    w-[350px]  h-[200px]  rounded-md duration-200"
                     alt=""
                   />
-                  <p className=" font-heading hidden group-hover:flex  absolute top-[50%] md:left-[20%] left-[15%]    font-bold text-[10px] md:text-[18px] text-cyan-100">
+                  <p className=" font-heading hidden group-hover:flex text-center  absolute left-1/2 bottom-1/2 transform -translate-x-1/2 translate-y-1/2    font-bold text-[10px] md:text-[18px] text-cyan-100">
                     {desc}
                   </p>
                 </div>
