@@ -51,7 +51,7 @@ const SocialLink = () => {
           return (
             <li
               key={id}
-              className="my-1 rounded-tr-md rounded-br-md  duration-200 md:ml-[-90px]  lg:ml-[-90px] ml-[-85px]  hover:ml-[-10px] flex w-32  md:h-10 lg:h-14 px-4  justify-between   bg-gradient-to-l  from-cyan-600 via-teal-500 to-gray-500"
+              className="my-1 rounded-tr-md rounded-br-md  duration-200 md:ml-[-90px]  lg:ml-[-90px] ml-[-82px]  hover:ml-[-10px] flex w-32  md:h-10 lg:h-14 px-4  justify-between   bg-gradient-to-l  from-cyan-600 via-teal-500 to-gray-500"
             >
               <a
                 className=" flex justify-between font-extrabold items-center w-full  text-gray-900"

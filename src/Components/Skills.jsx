@@ -64,7 +64,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="  w-fit md:w-full h-[2500px] mx-auto sm:mt-0 md:mt-6 md:h-[950px] flex flex-cols items-center justify-center"
+      className="  w-fit md:w-full h-[2400px] mx-auto sm:mt-0 md:mt-6 md:h-[950px] flex flex-cols items-center justify-center"
     >
       <div className="max-w-screen-lg mx-auto text-white text-center">
         <motion.div
@@ -74,7 +74,9 @@ const Skills = () => {
           viewport={{ once: false, amount: 0.7 }}
           className=" w-full flex flex-col items-start mx-auto md:mx-[30px] lg:mx-[20px]"
         >
-          <h1 className="text-2xl font-heading md:text-3xl">Skills</h1>
+          <h1 className="text-2xl font-heading md:ms-0 ms-5 md:text-3xl">
+            Skills
+          </h1>
           <p className="mt-5 text-[20px] font-bold">
             These are some languages I have worked with
           </p>
