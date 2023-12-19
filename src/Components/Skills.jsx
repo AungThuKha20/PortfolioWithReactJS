@@ -72,12 +72,10 @@ const Skills = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" w-full flex flex-col items-start mx-auto md:mx-[30px] lg:mx-[20px]"
+          className=" w-full flex flex-col sm:text-center items-start mx-auto md:mx-[30px] lg:mx-[20px]"
         >
-          <h1 className="text-2xl font-heading md:ms-0 ms-3 md:text-3xl">
-            Skills
-          </h1>
-          <p className="mt-5 text-[20px] font-bold">
+          <h1 className="text-2xl font-heading md:ms-0  md:text-3xl">Skills</h1>
+          <p className="mt-2 text-[20px] font-bold">
             These are some languages I have worked with
           </p>
         </motion.div>
