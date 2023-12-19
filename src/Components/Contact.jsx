@@ -29,7 +29,7 @@ const Contact = () => {
               />
             </div>
             <div className=" flex flex-col mb-4">
-              <label htmlFor="email">Your Name</label>
+              <label htmlFor="email">Your Email</label>
               <input
                 type="email"
                 name="email"
