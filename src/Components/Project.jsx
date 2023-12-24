@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import meal from "../img/Meal.png";
 import movie from "../img/Movie.png";
 import cart from "../img/AddToCart.png";
+import disneyClone from "../img/disneyClone.png";
 import { FaEye } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -24,6 +26,12 @@ const Project = () => {
       img: cart,
       desc: "Add To Cart(React JS)",
       href: "https://add-to-cart-rtk-funr-my-team-4fbe4104.vercel.app/"
+    },
+    {
+      id: 4,
+      img: disneyClone,
+      desc: "Disney Clone(Get Api with Axios)",
+      href: "https://disney-plus-clone-tawny-zeta.vercel.app/"
     }
   ];
   return (
