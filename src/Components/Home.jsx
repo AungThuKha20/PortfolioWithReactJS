@@ -23,7 +23,7 @@ const Home = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-center md:text-start font-heading h-[100px] md:h-[90px] font-bold text-2xl md:text-4xl"
+            className="text-center md:text-start font-heading h-[95px] md:h-[90px] font-bold text-2xl md:text-4xl"
           >
             <span className=" md:w-auto w-full">
               {" "}
