@@ -47,7 +47,7 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className=" md:mt-[80px] sm:mt-0 h-[1800px] md:h-[1000px] w-full mx-auto "
+      className=" md:mt-[80px] sm:mt-0 h-[1700px] md:h-[1000px] w-full mx-auto "
     >
       <div className="  container  mx-auto h-full w-5/6 items-center align-middle flex flex-col justify-center  ">
         <motion.div
