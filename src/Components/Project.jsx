@@ -3,6 +3,8 @@ import meal from "../img/Meal.png";
 import movie from "../img/Movie.png";
 import cart from "../img/AddToCart.png";
 import disneyClone from "../img/disneyClone.png";
+import ecommerce from "../img/ecommerce.png";
+
 import { GiBeastEye } from "react-icons/gi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -11,25 +13,32 @@ const Project = () => {
   const projects = [
     {
       id: 1,
+      img: ecommerce,
+      desc: "Ecommerce Website(React JS)",
+      href: "https://ecommerce-website-two-red.vercel.app/"
+    },
+    {
+      id: 2,
       img: meal,
       desc: "Special Dishes(React JS) ",
       href: "https://meal-with-meal-api-cso3-my-team-4fbe4104.vercel.app/"
     },
+
     {
-      id: 2,
+      id: 3,
       img: disneyClone,
       desc: "Disney Clone(Get Api with Axios)",
       href: "https://disney-plus-clone-tawny-zeta.vercel.app/"
     },
 
     {
-      id: 3,
+      id: 4,
       img: cart,
-      desc: "Add To Cart(React JS)",
+      desc: "Add To Cart(RTK)",
       href: "https://add-to-cart-rtk-funr-my-team-4fbe4104.vercel.app/"
     },
     {
-      id: 4,
+      id: 5,
       img: movie,
       desc: "Popular Movies(React JS)",
       href: "https://popular-movies-in-this-month-my-team-4fbe4104.vercel.app/"
@@ -38,7 +47,7 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className=" md:mt-[80px] sm:mt-0 h-[1300px] md:h-[600px] w-full mx-auto "
+      className=" md:mt-[80px] sm:mt-0 h-[1800px] md:h-[1000px] w-full mx-auto "
     >
       <div className="  container  mx-auto h-full w-5/6 items-center align-middle flex flex-col justify-center  ">
         <motion.div
@@ -51,7 +60,7 @@ const Project = () => {
           <h1 className=" font-heading md:text-3xl text-2xl"> Projects</h1>
           <p>Check out some of my projects here.</p>
         </motion.div>
-        <div className=" mt-4  flex md:flex-row flex-col  justify-around gap-10 md:px-0 px-3  ">
+        <div className=" mt-4  flex flex-wrap md:flex-row flex-col  justify-around gap-10 md:px-0 px-3  ">
           {projects.map(({ id, img, desc, href }) => {
             return (
               <div
