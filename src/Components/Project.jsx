@@ -4,6 +4,7 @@ import movie from "../img/Movie.png";
 import cart from "../img/AddToCart.png";
 import disneyClone from "../img/disneyClone.png";
 import ecommerce from "../img/ecommerce.png";
+import landcruiser from "../img/landcruiser.png";
 
 import { GiBeastEye } from "react-icons/gi";
 import { motion } from "framer-motion";
@@ -39,6 +40,12 @@ const Project = () => {
     },
     {
       id: 5,
+      img: landcruiser,
+      desc: "Land Cruiser 2024 Blog(React JS)",
+      href: "https://land-cruiser2024-blog-lhkd.vercel.app/"
+    },
+    {
+      id: 6,
       img: movie,
       desc: "Popular Movies(React JS)",
       href: "https://popular-movies-in-this-month-my-team-4fbe4104.vercel.app/"
@@ -47,7 +54,7 @@ const Project = () => {
   return (
     <div
       id="projects"
-      className=" md:mt-[80px] sm:mt-0 h-[1700px] md:h-[1000px] w-full mx-auto "
+      className=" md:mt-[80px] sm:mt-0 h-[2000px] md:h-auto lg:h-[1000px] w-full mx-auto "
     >
       <div className="  container  mx-auto h-full w-5/6 items-center align-middle flex flex-col justify-center  ">
         <motion.div
