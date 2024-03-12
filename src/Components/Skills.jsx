@@ -64,7 +64,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="  w-fit md:w-full h-[2300px] mx-auto sm:mt-0 md:mt-6 md:h-[950px] flex flex-cols items-center justify-center"
+      className="  w-fit md:w-full h-[2250px] mx-auto sm:mt-0 md:mt-6 md:h-[950px] flex flex-cols items-center justify-center"
     >
       <div className="max-w-screen-lg mx-auto text-white text-center">
         <motion.div
