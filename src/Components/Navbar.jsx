@@ -92,7 +92,7 @@ const Navbar = () => {
           return (
             <Link
               key={link.id}
-              className={` duration-200 hover:text-teal-500 `}
+              className={` duration-200 cursor-pointer hover:text-teal-500 `}
               activeClass="active"
               to={link.href}
               smooth={true}

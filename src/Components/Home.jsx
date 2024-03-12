@@ -23,7 +23,7 @@ const Home = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="text-center md:text-start font-heading h-[95px] md:h-[90px] font-bold text-2xl md:text-4xl"
+            className="text-center md:text-start font-heading h-[95px] md:h-[90px] font-bold text-2xl md:text-3xl"
           >
             <span className=" md:w-auto w-full">
               {" "}
@@ -38,7 +38,7 @@ const Home = () => {
                 2000
               ]}
               wrapper="span"
-              speed={70}
+              speed={200}
               repeat={Infinity}
               className="bg-gradient-to-r from-cyan-300 via-sky-500 to-gray-400 text-transparent bg-clip-text"
             />

@@ -47,15 +47,14 @@ const Contact = () => {
                 rows="10"
               ></textarea>
             </div>
-            <button
-              type="submit"
-              className="flex items-center justify-center w-full mx-auto group rounded-full hover:bg-gradient-to-l font-heading font-extrabold bg-gradient-to-r from-cyan-900 via-teal-700 to-gray-600 px-6 py-2 my-3 hover:bg-gradient hover:from-cyan-800 hover:to-gray-600"
-            >
-              <span className="mr-2">Send</span>
-              <span className="group-hover:rotate-45 duration-150">
-                <BsFillSendCheckFill size={30} />
-              </span>
-            </button>
+            <a href="https://m.me/aung.thukha.50746444">
+              <button className="flex items-center justify-center w-full mx-auto group rounded-full hover:bg-gradient-to-l font-heading font-extrabold bg-gradient-to-r from-cyan-900 via-teal-700 to-gray-600 px-6 py-2 my-3 hover:bg-gradient hover:from-cyan-800 hover:to-gray-600">
+                <span className="mr-2">Send</span>
+                <span className="group-hover:rotate-45 duration-150">
+                  <BsFillSendCheckFill size={30} />
+                </span>
+              </button>
+            </a>
           </form>
         </div>
       </div>
